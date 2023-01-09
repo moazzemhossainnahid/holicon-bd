@@ -1,0 +1,37 @@
+img{
+    width: 100%;
+}
+
+.logo-slider .item{
+    background-color: #fff;
+    box-shadow: 0 4px 5px #cacaca;
+    border-radius: 8px;
+    padding: 15px;
+    border:1px solid rgb(34, 31, 31);
+}
+
+.logo-slider .slick-slide{
+    margin: 15px;
+  
+}
+
+.slick-dots li.slick-active button::before{
+    color: #ff5722;
+}
+
+.slick-dots li button::before{
+    font-size: 12px;
+}
+
+.slick-next::before,
+.slick-prev::before{
+    color: #ff5722;
+    font-size: 24;
+}
+
+.item:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+}
+

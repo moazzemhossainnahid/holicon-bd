@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo slider</title>
+
+    <!--Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="/css/style7.css">
+</head>
+
+
+
+<body>
+
+    <section class="container mx-auto">
+        <div class="text-center text-2xl mt-14 mb-4"><span>Our Clients</span></div>
+        <div class="logo-slider">
+
+            <div class="item"><a href=""><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                        alt=""></a></div>
+            <div class="item"><a href=""><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                        alt=""></a></div>
+            <div class="item"><a href=""><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                        alt=""></a></div>
+            <div class="item"><a href=""><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                        alt=""></a></div>
+            <div class="item"><a href=""><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                        alt=""></a></div>
+            <div class="item"><a href=""><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                        alt=""></a></div>
+            <div class="item"><a href=""><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                        alt=""></a></div>
+            <div class="item"><a href=""><img
+                        src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"
+                        alt=""></a></div>
+
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script>
+        $('.logo-slider').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            Infinity: true,
+            responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4,
+                arrows: false
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3,
+                arrows: false
+            }
+        }]
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
